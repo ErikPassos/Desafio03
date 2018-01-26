@@ -1,0 +1,107 @@
+/*Reset básico*/
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+/*BIG TITLE*/
+
+.big_title {
+    display: block;
+    margin-bottom: 50px;
+    border-right: 10px solid #ccc;
+    font-size: 3em;
+    font-weight: bold;
+    color: #888;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+nav {
+    color: brown;
+}
+
+
+/*Corpo princpal do site*/
+
+main {
+    padding-top: 56px;
+}
+
+
+/*Google Maps*/
+
+#map {
+    height: 460px;
+    width: 100%;
+}
+
+
+/*Otimizando o container*/
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/*Estilizando o parágrafo*/
+
+p {
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: 22313F;
+}
+
+
+/*Artigo história*/
+
+div .historia {
+    background-color: aqua;
+}
+
+
+/*Estilizando o Foofter*/
+
+footer {
+    background: #333333;
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*Estilizando os ícones*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #26C281 !important;
+}
+
+.fa {
+    padding: 20px;
+    color: #C5EFF7;
+}
+
+.fa:hover {
+    color: #019875;
+}
